@@ -9,3 +9,4 @@ wget -r -p -k -np http://www.xiaoxiaoyi.github.com
 * -c 表示断点续传
 * -t 100表示重试100次,-t 0表示无穷次重试
  
+##下载某个目录下面的所有文件

@@ -1,6 +1,6 @@
 #wget
 ##下载网站
-wget -r -p -k -np http://www.3gcomet.com
+wget -r -p -k -np http://www.xiaoxiaoyi.github.com
 
 * -r 表示递归下载,会下载所有的链接(注意:不要单独使用这个参数,因为如果你要下载的网站也有别的网站的链接,wget也会把别的网站的东西下载下来)
 * -np 这个参数,表示不下载别的站点的链接

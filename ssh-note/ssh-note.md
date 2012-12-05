@@ -92,4 +92,7 @@ If that username is correct, you've successfully set up your SSH key. Don't worr
 
 If you see "access denied" please consider using HTTPS instead of SSH. If you need SSH start at these instructions for diagnosing the issue.
 
+##注意ERROR
 
+	Agent admitted failure to sign using the key
+	解决方法:# ssh-add   ~/.ssh/id_rsa 
